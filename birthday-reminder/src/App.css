@@ -1,0 +1,90 @@
+body{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+ background-image: linear-gradient(to right, #141e30, #243b55);
+ color: black;
+ font-size: 1rem;
+font-family:Arial, Helvetica, sans-serif
+}
+
+h1,
+h2,
+h3,
+h4 {
+ line-height: 1;
+}
+
+main {
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 0.875rem;
+}
+
+
+.container{
+  width: 90vw;
+  margin: 5rem 0;
+  max-width: 500px;
+  background: azure;
+  border-radius: 0.25rem;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.container button {
+ color: azure;
+ display: block;
+ width: 100%;
+ border-color: transparent;
+ background:#141e30;
+ margin: 2rem auto 0 auto;
+ text-transform: capitalize;
+ font-size: 1.2rem;
+ padding: 0.5rem 0;
+ letter-spacing: 0.2rem;
+ border-radius: 10px;
+ outline: 1px solid rgba(242, 138, 178, 0.8);
+ cursor: pointer;
+}
+
+.person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.person img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.person h4 {
+  margin-bottom: 0.35rem;
+}
+
+.person p {
+  margin-bottom: 0;
+}
